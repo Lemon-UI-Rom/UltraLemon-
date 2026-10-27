@@ -616,9 +616,9 @@ static int discover_cpu_policy_representatives(void)
 	return 0;
 }
 
-#define MAX_OC_PERCENT_OVER_STOCK  60
+#define MAX_OC_PERCENT_OVER_STOCK  80
 
-#define MAX_OC_ABSOLUTE_KHZ  2504000U
+#define MAX_OC_ABSOLUTE_KHZ  2704000U
 
 static unsigned int cpu_ll_target_khz = 0; /* exposed as cpu_little_target_khz */
 static unsigned int cpu_b_target_khz  = 0; /* exposed as cpu_big_target_khz */
